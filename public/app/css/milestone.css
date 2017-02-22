@@ -1,0 +1,170 @@
+.dataTable th.dt-head-center{
+	text-align: center !important;
+}
+.dataTable td.dt-body-center{
+	text-align: center !important;
+}
+.dataTable td.dt-body-left{
+	text-align: left !important;
+}
+.dataTable .milestone_rows .milestone_table_title {
+	width: 100%;
+}
+.dataTable .dt-padding_left{
+	padding-left: 20px;
+}
+.dataTables_empty{
+	text-align: center !important;
+}
+.dataTable td.dt-body-padding_none{
+	padding : 0px !important;
+}
+.ui-select-match + .ui-select-search,
+.ui-select-match + .ui-select-search input{
+    width: 100% !important;
+}
+.padding-0{
+	padding:0px !important
+}
+#kanban_tab hr{
+	margin-bottom : 5px !important;
+	margin-top : 5px !important;
+}
+.m_panel, .m_panel_body{
+	padding: 0px; 
+	border: none !important;
+	box-shadow: none !important;
+}
+#milestones_tablist li.col-md-4{
+	padding: 0px !important;
+}
+#milestones_tablist li{
+	text-align: center;
+}
+.task_dropdown_priority {
+	width: 95px;
+}
+.taskdatatable_start_date, .taskdatatable_due_date{
+	max-width: 150px !important;
+}
+#kanban_dropdown, .task_dropdown_owner {
+	padding-bottom: 2px;
+}
+.m_task_task_name, .t_task_name{
+	min-width: 150px;	
+}
+.t_edit_delete {
+	width: 25px;
+}	
+.m_task_edit_delete {
+	width: 50px;
+}
+.display_m_liner{
+	width: 100%;
+	background: none;
+	border: none;
+	margin: 0px;
+	height: 1px;
+	padding: 0px;	
+	float: left;
+}
+.dataTable .bootstrap-datetimepicker-widget th{
+	padding-right: 5px;
+}
+.dataTable .accordion-toggle span{
+	margin-left: 5px;
+}
+
+.dataTable th{
+	color:#444d58;
+}
+
+#milestones .modal p.alert {
+	font-size: 14px;
+}
+.dataTable .t_owner_id, .dataTable .m_task_owner_id  {
+	white-space: nowrap;
+}
+.m_task_startdate_format_final, .m_task_duedate_format_final, .m_task_owner_id ,.m_task_status, .m_task_priority {
+	text-align: left;
+	
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (max-width : 1224px) {
+	.dataTable .taskdatatable_start_date,.dataTable .taskdatatable_due_date{
+		width: 105px;
+	}
+}
+/* Desktops and laptops ----------- */
+@media only screen and (max-width : 1024px) {
+	.dataTable .task_dropdown_owner {
+		width: 120px;
+	}
+	.m_tabs_container_fixed{
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-width : 997px) {
+	.dataTable .task_dropdown_owner {
+		width: 120px;
+	}
+	.m_tabs_container_fixed{
+		padding: 0px;
+	}
+	.inprogress_mTasks th, .inprogress_mTasks td, .inprogress_mTasks input[type='text'], .inprogress_mTasks select,
+	.complete_mTasks th, .complete_mTasks td, .complete_mTasks input[type='text'], .complete_mTasks select,
+	#datatable_tasks th, #datatable_tasks td, #datatable_tasks input[type='text'], #datatable_tasks select{
+		font-size: 13px;
+	}
+	.container{
+		width: 100%;
+	}
+	#plain_tab{
+		overflow-x: auto;
+	}
+}
+.milestoneTask_dt th{
+	white-space: nowrap;
+}
+.task_comment_container{
+	min-height: 50px;
+	/* background :rgb(236, 236, 236); */
+	background :#f0f0f0;
+	border-radius: 0px 10px 0px 10px;
+	-webkit-border-radius: 0px 10px 0px 10px;
+	-moz-border-radius: 0px 10px 0px 10px;
+	padding-top: 5px;
+	cursor: pointer;
+}
+.task_comment_arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 15px solid transparent; 
+	/* border-right:15px solid rgb(236, 236, 236); */
+	border-right:15px solid #f0f0f0;
+  
+    margin-left: -24px;
+    position: absolute;
+}
+
+@media only screen and (max-width : 906px) {
+	.inprogress_mTasks, .complete_mTasks{
+		max-width: 785px;
+		overflow-x: auto;
+	}
+}
+@media only screen and (max-width : 800px) {
+	.inprogress_mTasks, .complete_mTasks{
+		max-width: 680px;
+		overflow-x: auto;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.inprogress_mTasks, .complete_mTasks{
+		max-width: 650px;
+		overflow-x: auto;
+	}
+}

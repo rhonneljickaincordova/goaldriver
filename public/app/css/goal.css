@@ -1,0 +1,453 @@
+.highchart_container{
+	border: solid 1px #ddd;
+	border-radius : 2px;
+	-webkit-border-radius : 2px;
+	-moz-border-radius : 2px;
+	background : #fff;
+	margin-bottom: 20px;
+}
+#container-highchart{
+	/* max-width : 500px; */
+}
+.kpi_container{
+	overflow:visible;
+}
+.kpi_container .tab-content .tab-pane{
+	padding-top: 20px;
+	border: solid 1px #ddd;
+	border-top: none;
+}
+.highchart_container_fixed{
+	clear:both;
+}
+
+#kpi_table td{
+	border-top: solid 1px #e7ecf1;
+}
+#kpi_table th, #graph_table th{
+	color: #444d58;
+}
+td.kpi_name, td.graph_name{
+	width: 270px;
+}
+td.kpi_name p, td.graph_name p{
+	margin-left: 10px;
+}
+
+td.kpi_name p, td.graph_name p, td.graph_kpi_name p{
+	color: #13b5ea;
+}
+
+td.kpi_description{
+	margin-bottom:10px;
+}
+.margin_left_5 {
+	margin-left : 5px;
+}
+.margin_left_10 {
+	margin-left : 10px;
+}
+
+.kpi_container .badge{
+	background-color: #f36a5a;
+	font-size: 11px;
+	padding: 3px 5px;
+}
+.kpi_container .badge_zero{
+	background-color: #aaafb8 !important;
+}
+
+.kpi_container .tab-pane .panel{
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+ul#kpis_tablist li a{
+	/* color: #bbbfc6; */
+	color: #93a2a9;
+	font-weight: 700;
+	font-size: 14px;
+}
+ul#kpis_tablist li.active a{
+	color: #444d58;
+}
+ul#kpidata_tablist{
+	margin-bottom: 15px;
+}
+ul#kpidata_tablist li a{
+	color: #93a2a9;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+ul#kpidata_tablist li.active a{
+	background-color:#13b5ea;
+	border: none;
+	color: #fff;
+}
+
+ul#kpidata_tablist li.active{
+	background-color:#13b5ea;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+ul#kpidata_tablist li:first-child{
+	margin-left: 15px;
+}
+
+#kpi_data_tab .tab-pane{
+	border: none;
+	
+}
+
+#kpi_data_tab .alert{
+	margin: 0px;
+}
+
+#kpi_calendar-daily, #kpi_calendar-weekly, #kpi_calendar-monthly, #kpi_calendar-quarterly, #kpi_calendar-yearly{
+	border-left: none;
+	border-right: none;
+}
+#kpi_calendar-daily tbody tr:first-child td, 
+#kpi_calendar-weekly  tbody tr:first-child td, 
+#kpi_calendar-monthly  tbody tr:first-child td, 
+#kpi_calendar-quarterly  tbody tr:first-child td, 
+#kpi_calendar-yearly  tbody tr:first-child td{
+	border-top: none;
+}	
+
+#kpi_calendar-daily .form-control,
+#kpi_calendar-weekly .form-control,
+{
+	max-width:90px;	
+}
+.prev_data_btn, .next_data_btn{
+	background: #d8dee5;
+    box-shadow: none;
+    border: none;
+    height: 30px;
+    width: 30px;
+}
+.prev_data_btn span, .next_data_btn span{
+	color: white;
+}
+th.prev_column, th.next_column{
+	width: 35px !important;
+	padding-left: 6px !important;
+	padding-right: 6px !important;
+}
+td.prev_column span, td.next_column span{
+	margin-top:4px;
+	display:block;
+	text-decoration: none;
+}
+td.prev_column span:hover, td.next_column span:hover{
+	cursor: pointer;
+}
+td.prev_column span > i, td.next_column span > i{
+	font-size: 30px;
+}
+/* enter data daily */
+.dataTable .kpi_ids, .prev_data, .next_data{
+	width: 50px !important;
+	text-align: center;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.dataTable th .bootstrap-datetimepicker-widget table th{
+	padding: 4px !important;
+}
+.dataTable th .bootstrap-datetimepicker-widget table{
+		z-index: 9999999 !important;
+}
+.dataTable th .bootstrap-datetimepicker-widget{
+	z-index: 9999999 !important;
+	position: absolute;
+}
+.kpi_container .tab-content .tab-pane{
+	overflow: visible !important;
+}
+/* enter data monthly */
+.kpi_months_date{
+	text-align: center;
+	width: 110px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.kpi_weeks_date{
+	text-align: center;
+	width: 110px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.kpi_quarters_date{
+	text-align: center;
+	width: 110px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.kpi_years_date{
+	text-align: center;
+	width: 110px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.kpi_days_date{
+	text-align: center;
+	width: 110px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+th.kpi_days_date p, th.kpi_weeks_date p, th.kpi_months_date p, th.kpi_quarters_date p, th.kpi_years_date p{
+	margin :0px;
+}
+
+th.kpi_days_date, th.kpi_weeks_date, th.kpi_months_date, th.kpi_quarters_date, th.kpi_years_date{
+	vertical-align:middle !Important;
+} 
+
+.data_entry_table input[type='text']{
+	max-width: 100px;
+}
+.data_entry_table .actual, .data_entry_table .target{
+	box-shadow:inset 0px 1px 6px -1px #ddd;
+	-webkit-box-shadow:inset 0px 1px 6px -1px #ddd;
+	-moz-box-shadow:inset 0px 1px 6px -1px #ddd;
+}
+.data_entry_table th{
+	color: #444d58;
+}
+
+.kpi_container   .goal-btn{
+	background: white;
+	color: #acafb2 !important;
+}
+.kpi_container   .goal-btn:hover{
+	background: #32c5d2;
+	color: white !important;
+}
+.kpi_container  .new_button_container .hide{
+	display:none;
+}
+
+#kpi .panel-body, #kpi_data_tab .panel-body, #kpi_graphs_tab .panel-body, #kpi_highcharts_tab .panel-body{
+	padding-top: 0px;
+	border:none;
+}
+
+
+.edit_kpi img{
+	width: 18px;
+}
+.delete_kpi img{
+	width: 10px;
+}
+.dt-body-lef{
+	text-align: left;
+}
+.dt-body-right{
+	text-align: right;
+}
+.dt-body-center{
+	text-align: center;
+}
+
+.kpi_best_direction{
+	width: 120px;
+}
+.edit_delete{
+	width: 30px;
+}
+.orange_calendar{
+	width: 30px !important;
+}
+.data_entry_table .input-group-addon{
+	padding:0px;
+	border: none;
+	background: none;
+}
+
+table.data_entry_table td.dataTables_empty, table.data_entry_table th.ed_kpi_name,
+table.data_entry_table td.ed_kpi_name{
+	border-left: solid 1px #ddd;
+}
+
+table.data_entry_table th:last-child,
+table.data_entry_table td:last-child{
+	border-right: solid 1px #ddd;
+}
+.bg-white-wrapper{
+	min-height: 450px;
+	overflow:visible;
+}
+.min_height_300{
+	min-height: 300px !important;
+}
+
+.dataTables_processing label{
+	font-weight: 300;
+}
+.dataTables_empty{
+	text-align : center;
+}
+.tooltip{
+	background: white !important;
+	color: white !important;
+}
+.tooltip > .tooltip-inner {
+		background-color : #000;
+}
+.tooltip > .tooltip-arrow { 
+	margin-right : -5px; 
+	border-right-color : black; 
+	width: 10px !Important; 
+	height: 10px !Important; 
+	z-index: 999 !Important; 
+}
+.tooltip{
+	font-size: 12px !Important;
+	z-index: 999 !Important;
+}
+.display_option_div label span{
+	font-weight: 500;
+	float:left;
+}
+.display_option_div input[type="checkbox"]{
+	float : left;
+	margin-top : 0px; 
+	margin-right : 5px;
+	width : 18px; 
+	height : 18px;
+}
+.display_option_div .tooltip > .tooltip-arrow { 
+	margin-left : -5px; 
+	border-right-color : black; 
+	width: 10px !Important;
+	height: 10px !Important; 
+	z-index: 999 !Important; 
+}
+.display_option_div .tooltip-inner{
+	width : 150px;
+}
+#kpi_table .right > .tooltip-arrow, #graph_table .right > .tooltip-arrow { 
+	margin-left:  -5px;
+}
+#kpi_table .tooltip, #graph_table .tooltip{
+	background: none !important;
+}
+.option_label{
+	vertical-align : top;
+	margin : 0px;
+	position : relative;
+	bottom : 1px;
+	margin-bottom: 5px;
+}
+.option_label:hover, .option_label input:hover{
+	cursor:pointer;
+}
+.multiselect-parent .dropdown-toggle {
+  width: 170px;
+}
+
+.multiselect-parent .dropdown-menu {
+  width: 220px;
+}
+
+.kpi_modals .modal-header, .graph_modals .modal-header{
+	background-color:rgb(240,173,78) !important;	
+}
+.kpi_modals .modal-header .fa, .graph_modals .modal-header .fa{
+	color: white;
+	display: inline-block;
+}
+.kpi_modals .modal-header label{
+	width: 90px;
+	padding-left: 15px;
+}
+.graph_modals .modal-header label{
+	width: 105px;
+	padding-left: 15px;
+}
+.kpi_modals .modal-header label, .kpi_modals .modal-header input[type='text'],
+.graph_modals .modal-header label, .graph_modals .modal-header input[type='text']{
+	display: inline-block;
+}
+.kpi_modals .modal-header input[type='text'],
+.graph_modals .modal-header input[type='text']{
+	width: 250px !important;
+	border:none;
+	box-shadow:none;
+	padding-left: 0px;
+}
+.kpi_modals .modal-header div.form-group,
+.graph_modals .modal-header div.form-group{
+	margin-bottom:0px;
+}
+.kpi_modal_header, .graph_modal_header{
+	margin-left: 30px;
+	display: inline-block;
+	width: 350px;
+	background: white;
+}
+.graph_modal_header{
+	margin-left: 30px;
+	display: inline-block;
+	width: 370px;
+	background: white;
+}
+.kpi_modal_header .alert,
+.graph_modal_header .alert{
+	margin-bottom: 0px;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+.rag_thresholds_div .col-md-10{
+	padding-left : 0px;
+}
+.rag_thresholds_div img{
+	margin-left : 49px;
+	width : 325px;
+	height : 20px;
+}
+.rag_thresholds_div .col-md-3{
+	padding-left : 0px;
+	width : 110px;
+}
+select.form-control{
+	padding: 6px 8px;
+}
+.no_border{
+	border:none;
+}
+.edit_kpi_days_list small{
+	background : #cfe6e8;
+	color: #555;
+	padding: 3px 7px;
+	cursor: pointer;
+}
+.edit_kpi_days_list small.selected{
+	background : #32c5d2 !important;
+	border: 1px solid #32c5d2 !important;
+	color: white !important;	
+}
+.gauge_filter_container .gauge_filter_PrevNext{
+	width : 100%;
+}
+.gauge_filter_container .gauge_details{
+	width: 76%;
+	display: inline-block;
+	text-align : center;
+}
+.gauge_filter_container .hg_gauge_prev_btn{
+	width: 12%;
+	display: inline-block;
+}
+.gauge_filter_container .hg_gauge_next_btn{
+	width: 12%;
+	display: inline-block;
+}

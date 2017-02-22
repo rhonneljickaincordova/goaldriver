@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 13, 2014, 3:56:48 PM
+    Author     : john
+*/
+
+#globalModal{
+    margin-top:5%; 
+}
+#globalModal .modal-header
+{
+	background: #fff;
+}
+#globalModal .modal-title
+{
+    font-size: 18px;
+    font-weight: bold;
+    color:#000;
+}
+#globalModal .modal-footer{
+    padding: 12px 17px 12px;
+}
+#globalModal .modal-content{
+    margin-top: 8%;
+    border-radius: 6px;
+}
+#globalModal .modal-body{padding-left:2%;padding-right:2%;}
